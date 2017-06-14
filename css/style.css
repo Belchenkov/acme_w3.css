@@ -1,10 +1,10 @@
 body {
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Jaldi', sans-serif;
 }
 
 nav span.w3-right a {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -13,6 +13,60 @@ span.w3-allerta {
 }
 
 .w3-bar .w3-bar-item {
-  font-size: 4rem;  
+  font-size: 6rem;  
     
+}
+
+/* === SHOWCASE === */
+section.showcase {
+  background: url('../img/showcase.jpg') no-repeat;
+  min-height: 600px;
+  background-position: center;
+  padding: 140px 100px;
+  color: #fff;
+}
+
+section.showcase h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+
+section.showcase hr {
+  width: 100px;
+  margin: auto;
+  border-width: 3px;
+  border-color: powderblue;
+}
+
+section.showcase p {
+  padding-bottom: 20px;
+}
+
+section.section {
+  padding: 40px;
+}
+
+section.section h2 {
+  padding: 0;
+  margin: 0;
+}
+
+section.section .fa {
+  font-size: 50px;
+}
+
+section.section img {
+  width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+  body {
+    margin-top: 300px;
+  }
+
+  section.showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
 }
