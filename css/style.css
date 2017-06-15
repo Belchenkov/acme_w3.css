@@ -24,6 +24,7 @@ section.showcase {
   background-position: center;
   padding: 140px 100px;
   color: #fff;
+  text-shadow: 0 2px 3px #000;
 }
 
 section.showcase h1 {
@@ -31,6 +32,13 @@ section.showcase h1 {
   font-weight: 700;
   text-transform: uppercase; 
 }
+
+#start {
+  padding: 15px 25px;
+  color: #fff;
+  text-shadow: 0 2px 4px #000;
+}
+
 
 section.showcase hr {
   width: 100px;
@@ -41,6 +49,7 @@ section.showcase hr {
 
 section.showcase p {
   padding-bottom: 20px;
+  font-size: 120%;
 }
 
 section.section {
@@ -60,6 +69,19 @@ section.section img {
   width: 100%;
 }
 
+
+section h1 {
+  text-transform: uppercase;
+}
+
+
+footer {
+  padding: 6px 0;
+  margin-top: 100px;
+}
+
+
+/* === MEDIA QUERIES ===*/
 @media only screen and (max-width:600px) {
   body {
     margin-top: 300px;
